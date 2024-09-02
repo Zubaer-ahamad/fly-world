@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sofia', sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-content {
+    background-color: #1A093F;
+    /*font-family: "Sofia Sans", sans-serif;*/
+}
+
+.nav-section, .banner-section {
+    background-color: rgb(65, 65, 165, 5%);
+}
+
+nav {
+    padding-top: 60px;
+    padding-bottom: 110px;
+
+}
+
+.plane-vector {
+    position: absolute;
+    top: -20px;
+    right: -50px;
+}
+
+.menu-link {
+    /*font-family: "Sofia Sans", sans-serif;*/
+    font-size: 18px;
+    font-weight: 500;
+    color: #1A093F;
+}
+
+li {
+    margin-right: 35px;
+}
+
+.active {
+    color: #FD5056;
+    transition: 0.100s ease-in-out;
+}
+
+.tour-btn {
+    width: 160px;
+    height: 48px;
+    background-color: #FD5056;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px #FD5056;
+    border: none;
+}
+
+.banner-section {
+    padding-bottom: 157px;
+}
+
+.banner-image, .small-banner-image {
+    border-radius: 200px;
+    border: 8px solid #FFF;
+}
+
+.banner-image {
+    width: 348px;
+    height: 443px;
+}
+
+.small-bg-container {
+    top: 70px;
+}
+
+.small-banner-image {
+    width: 292px;
+    height: 190px;
+}
+
+.banner-sub-heading {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FD5056;
+}
+
+.fa-earth-americas {
+    color: #2F6E24;
+    margin-left: 6px;
+}
+
+.banner-heading {
+    /*font-family: "Sofia Sans", sans-serif;*/
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: #8C849F;
+    margin-bottom: 15px;
+}
+
+.section-subtitle {
+    color: #FD5056;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.explore-section {
+    margin-top: 100px;
+}
+
+.prev-btn, .next-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid #8C849F;
+    color: #8C849F;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background-color: #4141A5;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.next-btn {
+    margin-left: 10px;
+}
+
+.group-card {
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.card-image {
+    width: 340px;
+    height: 464px;
+    border-radius: 8px;
+}
+
+.card-content {
+    position: absolute;
+    bottom: 30px;
+    left: 37px;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding-left: 18px;
+    padding-top: 15px;
+    width: 267px;
+    border-radius: 8px;
+}
+
+.travel-perfection-card-group {
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.perfection-card {
+    /*background-color: ;*/
+    background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(255, 255, 255, 0), rgba(65, 65, 165, 0.1));
+    padding: 20px 45px 36px 45px;
+    border-radius: 45px;
+}
+
+.experience-section {
+    margin-bottom: 120px;
+}
+
+.experience-content {
+    margin-top: 44px;
+    padding-top: 20px;
+    padding-bottom: 22px;
+    box-shadow: 0 0 20px rgba(253, 80, 86, 0.15);
+    border-radius: 15px;
+}
+
+.experience-num {
+    color: #FD5056;
+}
+
+.experience-img {
+    height: 430px;
+    width: 430px;
+    border-radius: 50%;
+    border: 4px solid #FD5056;
+}
+
+.package-card {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.package-card-img {
+    border-radius: 10px 10px 10px 0;
+}
+
+.gallery {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.customer-review {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.review-content {
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(253, 80, 86, 0.15);
+
+}
+
+.review-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.review-author {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.featured-blog {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.feature-title {
+    font-size: 20px;
+}
+
+.feature-btn {
+    color: #4141A5;
+    font-size: 18px;
+    font-weight: 700;
+    background: none;
+}
+
+.testimonials{
+    margin-bottom: 100px;
+}
+
+.testimonial-description {
+    color: #1A093F;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.testimonial-img {
+    height: 450px;
+    border-radius: 20px;
+}
+
+.overlay {
+    background-color: rgba(255, 206, 208, 0.6);
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.testimonial-content{
+    top: 100px;
+    left: 65px;
+    z-index: 2;
+    width: 50%;
+}
+
+.footer-nav{
+    margin-bottom: 75px;
+}
+
+.footer-social-link{
+    color: #1A093F;
+}
+
+.btn-submit{
+    padding: 8px 12px 8px 12px;
+    border-radius: 50%;
+    right: 9px;
+    top: 9px;
+    background-color: #4141A5;
+    color: #fff;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
