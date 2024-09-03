@@ -18,10 +18,10 @@ $(document).ready(function () {
     });
 
 
-    $('.center').slick({
+    $('.group-card').slick({
         centerMode: true,
-        centerPadding: '30',
-        slidesToShow: 4,
+        centerPadding: '60px',
+        slidesToShow: 3,
         prevArrow: '.prev-btn',
         nextArrow: '.next-btn',
         responsive: [
@@ -30,7 +30,7 @@ $(document).ready(function () {
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '25px',
+                    centerPadding: '40px',
                     slidesToShow: 3
                 }
             },
@@ -39,7 +39,7 @@ $(document).ready(function () {
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '20px',
+                    centerPadding: '30px',
                     slidesToShow: 1
                 }
             }

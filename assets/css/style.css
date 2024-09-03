@@ -148,7 +148,6 @@ li {
 }
 
 .group-card {
-    margin-left: 300px;
     margin-top: 50px;
     margin-bottom: 100px;
 }
@@ -156,7 +155,7 @@ li {
 .card-image {
     width: 340px;
     height: 464px;
-    border-radius: 8px;
+    border-radius: 20px;
 }
 
 .card-content {

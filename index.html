@@ -57,7 +57,7 @@
                     <img src="assets/images/plane-vector.svg" alt="plane">
                 </div>
             </div>
-            <div>
+            <div class="d-none d-lg-block">
                 <ul class="d-flex justify-content-center">
                     <li class="nav-item">
                         <a id="home-link" class="menu-link" aria-current="page" href="#">Home</a>
@@ -80,8 +80,45 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="d-none d-lg-block">
                 <button class="tour-btn">View Tours</button>
+            </div>
+
+            <button class="d-lg-none border-0 fs-2" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </button>
+
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+                 id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+<!--                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>-->
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+<!--                    <p>Try scrolling the rest of the page to see this option in action.</p>-->
+                    <ul class="d-flex flex-column gap-4 justify-content-center">
+                        <li class="nav-item">
+                            <a id="home-link-1" class="menu-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu-link" href="#">Destination</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu-link" href="#">Tour Package</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu-link" href="#">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </div>
@@ -92,28 +129,33 @@
     <!--  banner start  -->
     <section>
         <div class="banner-section">
-            <div data-aos="fade-up" class="container d-flex justify-content-between align-items-center">
-                <div class="position-relative w-50">
-                    <img class="img-fluid banner-image" src="assets/images/banner-image.jfif" alt="">
-                    <div class="position-absolute start-50 translate-middle small-bg-container">
-                        <img class="small-banner-image" src="assets/images/banner-image.jfif" alt="">
+            <div data-aos="fade-up" class="container mx-auto">
+                <div class="row row-cols-1 row-cols-lg-2">
+                    <div class="col mb-5 mb-lg-0">
+                        <div class="position-relative">
+                            <img class="img-fluid banner-image" src="assets/images/banner-image.jfif" alt="">
+                            <div class="position-absolute start-50 translate-middle small-bg-container">
+                                <img class="small-banner-image" src="assets/images/banner-image.jfif" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mt-5 mt-lg-0">
+                            <p class="banner-sub-heading">Explore The World <span><i
+                                    class="fa-solid fa-earth-americas"></i></span></p>
+                            <h1 class="banner-heading">
+                                Let’s Enjoy Your Trip With Fly World
+                                <span><img src="assets/images/Launch.png" alt=""></span>
+                            </h1>
+                            <p class="banner-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Accusamus
+                                adipisci alias aliquid aspernatur assumenda at autem commodi eligendi enim eos facere
+                                itaque
+                                nihil officia optio pariatur, perferendis quia quis velit.</p>
+                            <button class="tour-btn">Start Now</button>
+                        </div>
                     </div>
                 </div>
-                <div class="w-50">
-                    <p class="banner-sub-heading">Explore The World <span><i
-                            class="fa-solid fa-earth-americas"></i></span></p>
-                    <h1 class="banner-heading">
-                        Let’s Enjoy Your Trip With Fly World
-                        <span><img src="assets/images/Launch.png" alt=""></span>
-                    </h1>
-                    <p class="banner-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-                        adipisci alias aliquid aspernatur assumenda at autem commodi eligendi enim eos facere itaque
-                        nihil officia optio pariatur, perferendis quia quis velit.</p>
-                    <button class="tour-btn">Start Now</button>
-                </div>
-            </div>
-            <div>
-                <!--<p>Work have to be done</p>-->
             </div>
         </div>
     </section>
@@ -132,10 +174,10 @@
                     <button class="next-btn"><i class="fa-solid fa-chevron-right"></i></button>
                 </div>
             </div>
-            <div class="group-card center">
+            <div class="group-card container">
                 <!--card-1-->
                 <div class="position-relative">
-                    <img src="assets/images/Rectangle%206.png" class="card-image" alt="...">
+                    <img src="assets/images/banner-image.jfif" class="card-image" alt="...">
                     <div class="card-content">
                         <p class="mb-1 banner-sub-heading text-white">Enjoy the Beauty of the Rialto Bridge</p>
                         <p class="mb-1 text-white">Venezia, Italy</p>
@@ -425,10 +467,10 @@
             </div>
         </div>
 
-<!--        <div>-->
-<!--            <button class="prev-btn-2"><i class="fa fa-arrow-left"></i></button>-->
-<!--            <button class="next-btn-2"><i class="fa fa-arrow-right"></i></button>-->
-<!--        </div>-->
+        <!--        <div>-->
+        <!--            <button class="prev-btn-2"><i class="fa fa-arrow-left"></i></button>-->
+        <!--            <button class="next-btn-2"><i class="fa fa-arrow-right"></i></button>-->
+        <!--        </div>-->
 
     </section>
     <!--  about us end  -->
@@ -566,7 +608,8 @@
             <p class="banner-description mt-4 mb-4">Question or feedback?
                 We'd love to hear from you</p>
             <div class="position-relative">
-                <input class="w-100 pt-3 pb-3 ps-4 rounded-5 banner-description" type="email" name="email" placeholder="Your Email">
+                <input class="w-100 pt-3 pb-3 ps-4 rounded-5 banner-description" type="email" name="email"
+                       placeholder="Your Email">
                 <button class="position-absolute btn-submit"><i class="fa fa-paper-plane"></i></button>
             </div>
         </div>
